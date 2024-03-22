@@ -3,4 +3,7 @@
     border: solid var(--dark);
     background-color: var(--dark);
     color: var(--light);
+    height: 3em;
+    width: 6em;
+    font-size: large;
 }
