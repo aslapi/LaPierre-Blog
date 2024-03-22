@@ -1,0 +1,23 @@
+:root {
+    --dark: #404040;
+    --light: #faf5ff;
+}
+
+body {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.dark-mode {
+    --light: #404040;
+    --dark: #faf5ff;
+}
+
+
+.button {
+    padding: var(--dark);
+    border: solid var(--dark);
+    background-color: var(--dark);
+    color: var(--light);
+}
+

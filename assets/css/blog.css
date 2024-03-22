@@ -1,0 +1,6 @@
+.button {
+    padding: var(--dark);
+    border: solid var(--dark);
+    background-color: var(--dark);
+    color: var(--light);
+}

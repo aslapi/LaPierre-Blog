@@ -1,0 +1,14 @@
+body {
+    font-family:fantasy;
+}
+
+header {
+    text-align: center;
+    font-size: 78px;
+}
+
+.form-container {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
