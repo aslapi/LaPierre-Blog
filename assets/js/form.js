@@ -1,27 +1,51 @@
-const modeToggleBtn = document.querySelector('.mode-toggle');
+// Shouldn't need in this file if in logic.js file
+// const modeToggleBtn = document.querySelector('.mode-toggle');
 
-modeToggleBtn.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
+// modeToggleBtn.addEventListener('click', () => {
+//   document.body.classList.toggle('dark-mode');
+// });
+
+const usernameInput = document.querySelector("#username");
+const titleInput = document.querySelector("#title");
+const contentInput = document.querySelector("#content");
+const submitPostBtn = document.querySelector("#submit");
+
+
+submitPostBtn.addEventListener('click', function (e) {
+
+    e.preventDefault();
+
+    // creates an object with user's input
+    const blogPost = {
+        username: usernameInput.value,
+        title: titleInput.value,
+        content: contentInput.value
+    };
+
+    // if any inputs are left blank, will not allow post to go through
+    if (usernameInput.value === "") {
+        alert("username cant blank");
+        return false;
+    } else if (titleInput.value === "") {
+        alert("title cant blank");
+        return false;
+    } else if (contentInput.value === "") {
+        alert("content blank no good");
+    } else {
+
+        const existingPosts = JSON.parse(localStorage.getItem("blogPosts")) || [];
+
+        existingPosts.unshift(blogPost);
+
+        localStorage.setItem("blogPosts", JSON.stringify(existingPosts));
+        window.location.href = "blog.html";
+    }
+
+    usernameInput.value = "";
+    titleInput.value = "";
+    contentInput.value = "";
 });
 
-function submitForm () {
-    user = document.forms["blogForm"]["username"].value;
-    title = document.forms["blogForm"]["title"].value;
-    content = document.forms["blogForm"]["content"].value;
-
-    if (user == "") {
-        alert("Username must be filled out.");
-        // return false;
-    } else if (title == "") {
-        alert("Title must be filled out.");
-        // return false;
-    } else if (content == ""); {
-        alert("Content cannot be blank.");
-        return false;
-    // } else {
-    //     return false;
-    }
-};
 
 
 

@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .button {
     padding: var(--dark);
     border: solid var(--dark);
@@ -7,3 +11,47 @@
     width: 6em;
     font-size: large;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.notyet {
+    font-size: 8em;
+    text-align: center;
+}
+
+.blog-section {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ padding-top: 50px;
+}
+
+.post {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border: solid;
+    width: 400px;
+}
+
+.user-username {
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+.user-title {
+    font-style: bold;
+    font-size: 1.9em;
+}
+
+.user-content {
+    font-size: 1.25em;
+}
+
