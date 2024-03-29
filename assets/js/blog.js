@@ -28,7 +28,7 @@ if (existingPosts.length === 0) {
     newPostDiv.classList.add("post");
 
     newPostDiv.innerHTML = 
-    `<div>
+    `<div class="inside">
       <h3 class="user-title">${post.title}</h3>
       <p class="user-content">${post.content}</p>
     <div>

@@ -1,10 +1,3 @@
-// Shouldn't need in this file if in logic.js file
-// const modeToggleBtn = document.querySelector('.mode-toggle');
-
-// modeToggleBtn.addEventListener('click', () => {
-//   document.body.classList.toggle('dark-mode');
-// });
-
 const usernameInput = document.querySelector("#username");
 const titleInput = document.querySelector("#title");
 const contentInput = document.querySelector("#content");

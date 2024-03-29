@@ -1,5 +1,5 @@
 :root {
-    --dark: #404040;
+    --dark: #1b1a1a;
     --light: #faf5ff;
 }
 
@@ -10,9 +10,16 @@ body {
 }
 
 .dark-mode {
-    --light: #404040;
+    --light: #1b1a1a;
     --dark: #faf5ff;
-    
+}
+
+.header {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
 }
 
 .topcorner {
@@ -26,5 +33,17 @@ body {
     border: solid var(--dark);
     background-color: var(--dark);
     color: var(--light);
+    height: 2em;
+    width: 5em;
+    font-size: 1em;
 }
 
+.ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.ul li {
+    justify-content: space-between;
+    padding: 10px;
+}
