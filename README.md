@@ -19,5 +19,5 @@ Once you've either clicked the link or cloned the repository and launched the in
 
 Attached are screenshots of what the website should look like when visiting.
 
-![Alt text](./Assets/Images/topwebpage.png?raw=true "Top of webpage")
-![Alt text](./Assets/Images/bottomwebpage.png?raw=true "Bottom of webpage")
+![Alt text](?raw=true "Form webpage")
+![Alt text](?raw=true "Blog webpage")

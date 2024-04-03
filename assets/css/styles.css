@@ -46,6 +46,16 @@ body {
     font-size: 1em;
 }
 
+/* .button {
+    padding: var(--dark);
+    border: solid var(--dark);
+    background-color: transparent;
+    color: var(--light);
+    height: 2em;
+    width: 5em;
+    font-size: 1em;
+} */
+
 footer {
     text-align: center;
 }
