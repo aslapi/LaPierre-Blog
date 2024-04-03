@@ -1,14 +1,17 @@
+/* Styling for light and dark mode */
 :root {
     --dark: #1b1a1a;
     --light: #faf5ff;
 }
 
+/* Styling for light and dark mode */
 body {
     background-color: var(--light);
     color: var(--dark);
     letter-spacing: 2px;
 }
 
+/* Styling for light and dark mode */
 .dark-mode {
     --light: #1b1a1a;
     --dark: #faf5ff;
@@ -22,12 +25,17 @@ body {
     padding: 40px;
 }
 
-.topcorner {
-    position: fixed;
-    top: 10px;
-    right: 10px;
+.ul {
+    list-style-type: none;
+    display: flex;
 }
 
+.ul li {
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Styling to keep button changing colors between light and dark mode */
 .button {
     padding: var(--dark);
     border: solid var(--dark);
@@ -38,12 +46,6 @@ body {
     font-size: 1em;
 }
 
-.ul {
-    list-style-type: none;
-    display: flex;
-}
-
-.ul li {
-    justify-content: space-between;
-    padding: 10px;
+footer {
+    text-align: center;
 }

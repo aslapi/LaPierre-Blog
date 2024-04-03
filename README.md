@@ -1,26 +1,23 @@
 # LaPierre-Blog
 A blog for myself and other users to post and show their thoughts and opinions.
 
-<!-- GIVEN a personal blog
-WHEN I load the app,
-THEN I am presented with the landing page containing a form with labels and inputs for username, blog title, and blog content.
-WHEN I submit the form,
-THEN blog post data is stored to localStorage.
-WHEN the form submits,
-THEN I am redirected to the posts page.
-WHEN I enter try to submit a form without a username, title, or content,
-THEN I am presented with a message that prompts me to complete the form.
-WHEN I view the posts page,
-THEN I am presented with a header, with a light mode/dark mode toggle, and a "Back" button.
-WHEN I click the light mode/dark mode toggle,
-THEN the page content's styles update to reflect the selection.
-WHEN I click the "Back" button,
-THEN I am redirected back to the landing page where I can input more blog entries.
-WHEN I view the main content,
-THEN I am presented with a list of blog posts that are pulled from localStorage.
-WHEN I view localStorage,
-THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content.
-WHEN I take a closer look at a single blog entry in the list,
-THEN I can see the title, the content, and the author of the post.
-WHEN I view the footer,
-THEN I am presented with a link to the developer's portfolio. -->
+## Description
+
+The blog that was created was made to give myself and others a space to share what it is that they enjoy about living life. In the posted blogs page, everyone that visits the site will be able to see what others simple pleasures are.
+
+## Purpose
+
+The purpose of the blog was to create a space for people to come together and share things about themselves
+
+## Installation
+
+There are no installation steps required for this project. Simply click the link provided: XXXXXXX or you can clone the repository titled LaPierre-Blog and launch the index.html file in your default browser.
+
+## Usage
+
+Once you've either clicked the link or cloned the repository and launched the index.html file, use a mouse and keyboard or a phone/tablet with a touchscreen to click on the form inputs and put in your username, title, and content. Once you've finished filling in all fields, click submit. The page will redirect you to a new page of blogs. There, you will be able to see your post as well as anyone else that has submitted content.
+
+Attached are screenshots of what the website should look like when visiting.
+
+![Alt text](./Assets/Images/topwebpage.png?raw=true "Top of webpage")
+![Alt text](./Assets/Images/bottomwebpage.png?raw=true "Bottom of webpage")
