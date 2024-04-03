@@ -11,7 +11,7 @@ The purpose of the blog was to create a space for people to come together and sh
 
 ## Installation
 
-There are no installation steps required for this project. Simply click the link provided: XXXXXXX or you can clone the repository titled LaPierre-Blog and launch the index.html file in your default browser.
+There are no installation steps required for this project. Simply click the link provided: https://aslapi.github.io/LaPierre-Blog/ or you can clone the repository titled LaPierre-Blog and launch the index.html file in your default browser.
 
 ## Usage
 
